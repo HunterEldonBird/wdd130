@@ -1,13 +1,11 @@
-<<<<<<< HEAD
-
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sevillana&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94  ;
-  --secondary-color: #F59302 ;
+  --primary-color: #396E94;
+  --secondary-color: #F59302;
   --accent1-color: #3774A0;
   --accent2-color: #755E3C;
 
@@ -162,7 +160,10 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-=======
+
+}
+
+/* =======
 
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
@@ -326,5 +327,4 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
->>>>>>> 2f57017fbfbb3d8ead3d1ae6068bef0086143c6b
 }
