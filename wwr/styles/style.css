@@ -238,10 +238,6 @@ nav a {
 
 
 
-
-
-
-
 .largePhoto{
     width: 100%;
 }
@@ -261,8 +257,8 @@ main section img {
 .home-grid{
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
     
     text-decoration: none;
 }
