@@ -142,19 +142,71 @@ nav a {
 }
 
 
+<!--
+
 #RiverPhoto1Div{
-    grid-column: 1/3;
+    background-color:#506E94;
+    display: absolute;
+    grid-column: 2/5;
     grid-row: 1/2;
 
     width: 100%;
+    align-items: center;
+    z-index: 1;
 }
 
 #RiverPhoto1{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+}
+
+#RiverPhoto1TextH{
     display: absolute;
+    position: relative;
+    z-index: 3;
+
+
 }
 
 #RiverPhoto1Text{
-    
+    font-size: 100;
+    font-size: 20px;
+}
+
+
+
+
+
+#RiverPhoto2Div{
+    background-color:#506E94;
+    display: absolute;
+    grid-column: 1/6;
+    grid-row: 5/10;
+
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+#RiverPhoto2{
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+}
+
+#RiverPhoto2TextH{
+    display: absolute;
+    position: relative;
+    z-index: 3;
+
+
+}
+
+#RiverPhoto2Text{
+    font-size: 20px;
 }
 
 .largePhoto{
@@ -176,8 +228,8 @@ main section img {
 .home-grid{
 
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     
     text-decoration: none;
 }
